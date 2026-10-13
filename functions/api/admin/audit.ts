@@ -1,5 +1,5 @@
-import { jsonOk } from "../../_lib/response";
-import type { Env } from "../../_lib/db";
+import { jsonOk } from "../_lib/response";
+import type { Env } from "../_lib/db";
 
 export const onRequestGet: PagesFunction<Env> = async (ctx) => {
   const { request, env } = ctx;

@@ -31,7 +31,7 @@ export async function hashPassword(
   saltHex: string
 ): Promise<string> {
   const enc = new TextEncoder();
-  const salt = hexToBytes(saltHex);
+  const salt = hexToBytes(saltHex) as unknown as BufferSource;
   const key = await crypto.subtle.importKey(
     "raw",
     enc.encode(password),

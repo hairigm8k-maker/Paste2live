@@ -1,4 +1,4 @@
-import { jsonOk } from "../_lib/response";
+
 import { getAuthContext, revokeSession, clearSessionCookie } from "../_lib/session";
 import type { Env } from "../_lib/db";
 

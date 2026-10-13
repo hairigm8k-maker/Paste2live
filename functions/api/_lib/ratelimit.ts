@@ -1,4 +1,3 @@
-import type { Env } from "./db";
 
 const buckets = new Map<string, { count: number; resetAt: number }>();
 

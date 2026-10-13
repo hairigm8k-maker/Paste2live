@@ -1,6 +1,6 @@
 import { jsonOk, jsonError, ErrorCodes } from "../_lib/response";
 import { validatePassword, readJson } from "../_lib/validate";
-import { generateId, randomHex, hashPassword, sha256Hex } from "../_lib/crypto";
+import { randomHex, hashPassword, sha256Hex } from "../_lib/crypto";
 import type { Env } from "../_lib/db";
 
 export const onRequestPost: PagesFunction<Env> = async (ctx) => {

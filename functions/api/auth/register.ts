@@ -1,4 +1,4 @@
-import { jsonOk, jsonError, ErrorCodes } from "../_lib/response";
+import { jsonError, ErrorCodes } from "../_lib/response";
 import { validateEmail, validatePassword, readJson } from "../_lib/validate";
 import { generateId, randomHex, hashPassword, sha256Hex } from "../_lib/crypto";
 import { sendEmail, verificationEmailHtml } from "../_lib/email";

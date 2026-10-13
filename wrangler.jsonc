@@ -8,7 +8,7 @@
     {
       "binding": "DB",
       "database_name": "paste2live-db",
-      "database_id": "REPLACE_WITH_PRODUCTION_D1_ID"
+      "database_id": "3376da87-e0f2-4ab3-aa34-4f7af78a193f"
     }
   ],
   "vars": {

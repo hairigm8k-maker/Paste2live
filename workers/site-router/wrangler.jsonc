@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "paste2live-site-router",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "paste2live-db",
+      "database_id": "3376da87-e0f2-4ab3-aa34-4f7af78a193f"
+    }
+  ],
+  "vars": {
+    "SITE_BASE_DOMAIN": "sites.hairiamri.buzz"
+  }
+}

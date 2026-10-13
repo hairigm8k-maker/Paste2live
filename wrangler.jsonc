@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "paste2live",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2025-01-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "paste2live-db",
+      "database_id": "REPLACE_WITH_PRODUCTION_D1_ID"
+    }
+  ],
+  "vars": {
+    "APP_NAME": "Paste2Live",
+    "APP_ORIGIN": "https://app.hairiamri.buzz",
+    "SITE_BASE_DOMAIN": "sites.hairiamri.buzz"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
